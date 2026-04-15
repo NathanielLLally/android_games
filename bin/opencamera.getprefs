@@ -1,0 +1,4 @@
+#!/bin/sh
+ANDROID_SERIAL=XG9LGEZX6L75QGMJ
+adb shell 'su -c cat /data/data/net.sourceforge.opencamera/shared_prefs/net.sourceforge.opencamera_preferences.xml'
+#> net.sourceforge.opencamera_preferences.xml

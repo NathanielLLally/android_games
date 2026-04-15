@@ -1,0 +1,793 @@
+10-29 12:34:46.487  1539  3231 D ColorResolveInfoHelper: The MIME data type of this intent is camera
+10-29 12:34:47.503  1539  1823 D ColorResolveInfoHelper: The MIME data type of this intent is camera
+10-29 12:34:48.079 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:34:48.079 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:34:48.194  2210  2210 D UsbStatusReceiver: onReceive:Intent { act=oppo.intent.action.USB_HW_STATUS flg=0x10 pkg=com.oppo.oppopowermonitor cmp=com.oppo.oppopowermonitor/.badbattery.UsbStatusReceiver (has extras) }
+10-29 12:34:48.214 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:34:48.214 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:34:48.234  1930  1930 V UsbStartReceiver: receive: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x5000010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:34:48.331  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:34:48.349 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:34:48.350 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-29 12:34:48.350 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-29 12:34:48.385  1539  2582 D Intent  : disableDeathOnFileUriExposure com.facebook.katana
+10-29 12:34:48.449  2826  2826 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:34:48.449  2826  2826 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:34:48.479 31584 16248 I DCU_IntentOperation: (REDACTED) SPE one-time sync %d %s
+10-29 12:34:48.482  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:34:48.506  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:34:48.506 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:34:48.596 18735 18735 D OppoLFEHelper.PowerReceiver: action : android.intent.action.ACTION_POWER_CONNECTED
+10-29 12:34:48.640  1539  2582 D Intent  : disableDeathOnFileUriExposure com.facebook.katana
+10-29 12:34:48.667  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:34:48.669 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:34:48.724 18795 18795 V PowerConnectionReceiver: action : android.intent.action.ACTION_POWER_CONNECTED
+10-29 12:34:49.962  1539  2582 D ColorResolveInfoHelper: The MIME data type of this intent is camera
+10-29 12:34:50.209 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:34:50.409 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:34:50.421  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:34:50.468  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:34:50.769  2178  2178 D Launcher.LauncherClient: LauncherCallbacksImp.onHomeIntent, mOverlay:true, mClient:true, assistShowing:false
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@ffa1171id=28 type=APP container=hotseat screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Messages installStateType=-1 installSource=null component=ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.mms/.ui.ConversationList })
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@d300b56id=27 type=APP container=hotseat screen=1 cell(1,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Phone installStateType=-1 installSource=null component=ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivityAlias}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.DialtactsActivityAlias })
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:34:50.954  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:34:51.414 15608 16085 D Intent  : disableDeathOnFileUriExposure com.android.chrome
+10-29 12:34:54.006 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:34:54.007 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:00.118 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:00.118 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:06.003 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:06.003 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:11.888 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:11.889 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:18.031 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:18.031 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:23.923 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:23.923 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:30.065 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:30.065 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:35.955 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:35.955 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:42.102 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:42.102 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:47.986 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:47.987 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:54.136 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:35:54.136 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:00.014 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:00.016 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.152  2210  2210 D UsbStatusReceiver: onReceive:Intent { act=oppo.intent.action.USB_HW_STATUS flg=0x10 pkg=com.oppo.oppopowermonitor cmp=com.oppo.oppopowermonitor/.badbattery.UsbStatusReceiver (has extras) }
+10-29 12:36:03.175 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.175 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.200 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.201 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.325 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:03.325 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:04.647 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:04.647 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:04.760  2210  2210 D UsbStatusReceiver: onReceive:Intent { act=oppo.intent.action.USB_HW_STATUS flg=0x10 pkg=com.oppo.oppopowermonitor cmp=com.oppo.oppopowermonitor/.badbattery.UsbStatusReceiver (has extras) }
+10-29 12:36:04.781 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:04.781 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:04.814 18735 18735 D OppoLFEHelper.PowerReceiver: action : android.intent.action.ACTION_POWER_CONNECTED
+10-29 12:36:04.816 18795 18795 V PowerConnectionReceiver: action : android.intent.action.ACTION_POWER_CONNECTED
+10-29 12:36:04.820  1930  1930 V UsbStartReceiver: receive: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x5000010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:04.869  1539  4610 D Intent  : disableDeathOnFileUriExposure com.facebook.katana
+10-29 12:36:05.094 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:36:05.121  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:05.218  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:05.224 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:36:07.215  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:07.221 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:36:07.649  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:07.653 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:36:07.784  1930  1930 V UsbStartReceiver: receive: Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.systemui/com.coloros.systemui.notification.usb.UsbstartReceiver (has extras) }
+10-29 12:36:07.785 17436 17436 I MtpReceiver: onReceive, intent = Intent { act=android.hardware.usb.action.USB_STATE flg=0x31100010 cmp=com.android.providers.media/.MtpReceiver (has extras) }
+10-29 12:36:08.202  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:36:09.695  2826  4150 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:09.701 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:09.701 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:11.068 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:11.069 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:11.341 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chromesync.service.firstparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:16.964 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:16.965 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:20.213 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.people.contactssync.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-29 12:36:23.056 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:23.056 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:24.730 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:27.736  2178  2178 D Launcher.ItemClickHandler: onClick, tag = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:36:27.881 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:28.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:28.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:29.643 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:31.667 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:34.226 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:34.589  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:36:34.622 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:34.622 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:36:35.077 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:35.077 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:39.661  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:36:40.978 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:40.978 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:44.056 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:36:44.333  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:36:47.120 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:47.121 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:49.368  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:36:53.007 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:53.007 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:58.898 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:36:58.898 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:02.069 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:37:02.282  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:04.889 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-29 12:37:05.039 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:05.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:07.317  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:10.928 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:10.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:12.433 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:37:12.683  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:17.072 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:17.072 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:17.712  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:22.960 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:22.961 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:26.185  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:29.104 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:29.105 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:31.210  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:37:34.991 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:34.992 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:40.879 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:40.879 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:47.025 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:47.026 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:52.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:52.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:59.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:37:59.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:04.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:04.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:11.086 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:11.087 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:16.348 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:38:16.700  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:16.970 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:16.970 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:21.740  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:23.123 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:23.124 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:29.015 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:29.015 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:29.900 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:38:30.113  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:34.898 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:34.898 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:35.152  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:41.027 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:41.028 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:41.538 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:38:41.828  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:46.844  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:38:46.930 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:46.930 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:53.069 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:53.069 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:58.962 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:38:58.962 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:05.105 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:05.105 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:10.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:10.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:16.880 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:16.881 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:23.025 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:23.026 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:26.335  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:39:28.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:28.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:31.354  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:39:35.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:35.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:40.942 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:40.942 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:47.087 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:47.088 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:48.584  2826  2826 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:39:48.584  2826  2826 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:39:48.589 18735 18735 V OppoLFEHelper.DcsScanReceiver: receiver : oppo.intent.action.ACTION_DCS_STARTSCAN
+10-29 12:39:48.602  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:39:48.762  2826  3856 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:39:48.826 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:39:48.827 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+10-29 12:39:48.827 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+10-29 12:39:48.877  2826  3856 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:39:48.881  2826  3856 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:39:48.885 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:39:48.886 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:39:49.592 18735 18735 D OppoLFEHelper.DcsScanReceiver: handleGetServiceDone action is : oppo.intent.action.ACTION_DCS_STARTSCAN
+10-29 12:39:52.978 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:52.978 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:59.125 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:39:59.126 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:03.944 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+10-29 12:40:03.974 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocationhistory.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:40:05.006 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:05.006 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:10.897 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:10.897 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:17.041 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:17.041 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:19.907 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:40:20.265  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:40:22.928 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:22.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:25.296  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:40:29.073 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:29.073 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:33.452 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:40:33.747  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:40:34.954 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:34.955 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:38.779  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:40:41.104 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:41.105 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:46.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:46.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:52.931 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:52.931 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:59.023 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:40:59.024 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:04.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:04.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:11.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:11.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:16.943 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:16.943 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:23.090 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:23.090 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:28.118 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:41:28.435  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:41:28.974 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:28.975 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:34.664  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:41:35.121 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:35.121 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:39.683 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:41:41.007 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:41.007 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:46.887 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:46.887 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:47.173  1539  1554 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.211  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.289  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.335  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.387  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.449  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.513  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.586  1539  2082 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.655  1539  4794 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.725  1539  4794 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.796  1539  4794 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.868  1539  4794 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:47.937  1539  4794 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:48.006  1539  1553 D ColorResolveInfoHelper: The MIME data type of this intent is browser
+10-29 12:41:48.180  2178  2178 D Launcher.PackageUpdateReceiver: onReceive intent = Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.facebook.appmanager flg=0x45000010 (has extras) } userHandle = UserHandle{0}, id = 0, package = com.facebook.appmanager
+10-29 12:41:48.190  2925  2925 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-29 12:41:48.237  2126  2126 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+10-29 12:41:48.238  2126  2126 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+10-29 12:41:53.041 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:53.042 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:57.183  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:41:58.938 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:41:58.938 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:02.844  2178  2178 D Launcher.LauncherClient: LauncherCallbacksImp.onHomeIntent, mOverlay:true, mClient:true, assistShowing:false
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@ffa1171id=28 type=APP container=hotseat screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Messages installStateType=-1 installSource=null component=ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.mms/.ui.ConversationList })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@d300b56id=27 type=APP container=hotseat screen=1 cell(1,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Phone installStateType=-1 installSource=null component=ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivityAlias}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.DialtactsActivityAlias })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@bce78c4id=31 type=APP container=hotseat screen=4 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Camera installStateType=-1 installSource=null component=ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.oppo.camera/.Camera })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.957  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@b221c5cid=46 type=APP container=desktop screen=0 cell(0,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Open Camera installStateType=-1 installSource=null component=ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.sourceforge.opencamera/.MainActivity bnds=[30,413][234,690] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@421103aid=85 type=APP container=desktop screen=0 cell(2,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Monkey City installStateType=-1 installSource=null component=ComponentInfo{com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle bnds=[438,413][642,690] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:02.958  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:42:04.453  2178  2178 D Launcher.ItemClickHandler: onClick, tag = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:42:04.811 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:04.812 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:04.812 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:04.854 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:05.113 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:05.113 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:05.300 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:05.636 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:05.668  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:05.737  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:05.742  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:10.775  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:10.963 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:10.964 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:11.643 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:42:11.643 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:42:12.262  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:42:12.829  3407 15718 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+10-29 12:42:12.835 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:12.840 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.service.CACHE pkg=com.google.android.gms }
+10-29 12:42:12.840 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.service.CACHE pkg=com.google.android.gms }
+10-29 12:42:12.852  3407 20492 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+10-29 12:42:12.855 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:12.856 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.service.START pkg=com.google.android.gms }
+10-29 12:42:12.856 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.service.START pkg=com.google.android.gms }
+10-29 12:42:12.862 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.identifier.service.EVENT_ATTESTATION dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-29 12:42:12.862 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.identifier.service.EVENT_ATTESTATION dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-29 12:42:14.970  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0xe99 [DynIc-fPensKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756134959, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:42:15.754  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0xe99 [DynIc-fPensKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756135740, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:42:15.758  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756135740, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:42:15.814  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:17.103 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:17.103 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:18.850 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ads.service.START pkg=com.google.android.gms }
+10-29 12:42:20.787  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:20.792  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:20.820  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:22.822  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:42:22.995 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:22.995 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:26.540 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:26.680 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:42:26.681 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:26.681 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:27.059  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:28.877 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:28.877 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:31.111 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ads.identifier.service.EVENT_ATTESTATION dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-29 12:42:32.067  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:42:35.022 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:35.024 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:37.058 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:42:37.847  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:42:39.211  3407  3407 D WindowManager: Add to mViews: DecorView@55ccff9[Send Intent], this = android.view.WindowManagerGlobal@99c5d30,pkg= com.arlosoft.macrodroid
+10-29 12:42:39.214  3407  3407 D ViewRootImpl[Send Intent]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+10-29 12:42:39.218   801  1408 D DispPerfService: get hint proc=eaaf0c6 Send Intent#0, idx=0 none
+10-29 12:42:39.318   801   864 D DispPerfService: get hint proc=Send Intent#0, idx=0 none
+10-29 12:42:39.319   801   864 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3655,api:0,p:-1,c:801) setConsumerName: Send Intent#0
+10-29 12:42:39.319   801   864 D DispPerfService: get proc=Send Intent#0 none
+10-29 12:42:39.319   801   864 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3655,api:0,p:-1,c:801) setDefaultBufferSize: width=1128 height=2345
+10-29 12:42:39.326   801  1408 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:42:39.365   801   864 D DispPerfService: onframeavailable pid=3407, slot=0, seq=16245, ret=0, name=com.arlosoft.macrodroid:Send Intent#0
+10-29 12:42:39.409   801  1408 D DispPerfService: get hint proc=Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#0, idx=0 none
+10-29 12:42:39.464   801   864 D DispPerfService: get hint proc=Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#1, idx=0 none
+10-29 12:42:39.467   801   864 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:3407,c:801) setDefaultBufferSize: width=1128 height=2343
+10-29 12:42:39.479   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16246 Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#0
+10-29 12:42:39.508   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:42:39.510   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:42:39.929   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16249 Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#1
+10-29 12:42:40.878   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:42:40.878  3407  3407 D View    : [Warning] assignParent to null: this = DecorView@55ccff9[Send Intent]
+10-29 12:42:40.881   801  1408 D DispPerfService: get hint proc=Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#0, idx=0 none
+10-29 12:42:40.895  1539  6233 E InputDispatcher: Window handle Window{eaaf0c6 u0 Send Intent} has no registered input channel
+10-29 12:42:40.913  1539  4394 E InputDispatcher: Window handle Window{eaaf0c6 u0 Send Intent} has no registered input channel
+10-29 12:42:40.930  1539  6233 E InputDispatcher: Window handle Window{eaaf0c6 u0 Send Intent} has no registered input channel
+10-29 12:42:40.933 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:40.933 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:41.093   801   801 I BufferQueue: [Send Intent#0](this:0x77201d5800,id:3655,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 12:42:41.093   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16245 Send Intent#0
+10-29 12:42:41.093   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16250 Surface(name=eaaf0c6 Send Intent)/@0xf5fcbdd - animation-leash#0
+10-29 12:42:47.052 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:47.053 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:51.056 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ads.service.CACHE pkg=com.google.android.gms }
+10-29 12:42:52.946 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:52.947 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:59.090 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:42:59.090 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:01.769 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:04.973 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:04.975 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:06.768 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:11.120 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:11.120 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:11.770 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:16.772 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:17.010 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:17.011 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:21.772 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:22.893 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:22.894 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:24.200  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:43:24.267 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocationhistory.zeroparty.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:43:24.267 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.zeroparty.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:43:25.195  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:43:26.773 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:29.039 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:29.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:31.779 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:34.927 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:34.927 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:36.775 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:39.251  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:43:39.303 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocationhistory.zeroparty.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:43:40.451  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:43:41.075 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:41.075 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:41.776 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:46.777 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:46.960 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:46.960 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:51.778 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:53.101 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:53.101 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:56.779 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:43:58.990 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:43:58.991 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:01.779 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:04.875 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:04.875 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:06.781 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:11.025 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:11.025 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:11.783 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:16.783 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:21.784 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:23.058 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:23.059 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:26.785 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:28.948 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:28.948 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:31.786 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:35.093 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:35.094 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:36.786 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:40.979 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:40.979 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:41.786 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:46.789 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:48.681  2826  2826 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:44:48.681  2826  2826 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:44:48.693  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:44:51.790 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:53.010 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:53.011 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:56.791 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:44:58.894 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:44:58.896 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:01.790 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:05.039 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:05.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:06.793 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:10.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:10.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:11.792 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:16.790 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:17.070 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:17.071 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:21.791 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:22.960 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:22.960 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:26.793 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:29.102 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:29.103 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:31.796 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:34.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:34.995 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:36.791 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:40.878 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:40.879 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:41.791 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:46.793 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:47.023 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:47.024 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:51.793 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:52.910 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:52.910 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:56.793 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:45:59.054 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:45:59.057 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:01.794 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:04.942 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:04.942 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:06.154 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:06.215 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:06.793 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:11.087 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:11.087 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:11.795 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:16.794 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:21.795 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:23.119 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:23.120 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:26.796 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:29.008 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:29.009 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:31.797 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:34.894 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:34.895 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:36.797 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:41.037 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:41.038 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:41.798 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:46.797 31584 31676 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:46.927 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:46.928 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:49.790   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16244 eaaf0c6 Send Intent#0
+10-29 12:46:51.803 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:46:53.072 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:53.072 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:46:56.797 31584  4563 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:01.796 31584 31744 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:05.108 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:05.111 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:06.802 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:10.991 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:10.992 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:11.797 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:16.675 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:47:16.801 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:16.879 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:16.880 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:21.801 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:23.023 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:23.024 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:26.802 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:28.911 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:28.911 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:31.804 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:35.054 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:35.055 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:36.804 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:40.940 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:40.940 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:41.804 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:46.805 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:47.088 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:47.088 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:51.806 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:52.972 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:52.972 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:56.807 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:47:59.117 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:47:59.118 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:01.808 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:05.010 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:05.010 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:06.809 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:10.900 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:10.901 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:11.810 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:16.810 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:17.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:17.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:21.815 31584 32679 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:22.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:22.949 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:26.812 31584 31744 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:29.069 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:29.069 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:29.838  3407  3407 D WindowManager: Add to mViews: DecorView@2f69c09[Send Intent], this = android.view.WindowManagerGlobal@99c5d30,pkg= com.arlosoft.macrodroid
+10-29 12:48:29.842  3407  3407 D ViewRootImpl[Send Intent]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+10-29 12:48:29.847   801   864 D DispPerfService: get hint proc=9a78323 Send Intent#0, idx=0 none
+10-29 12:48:29.947   801   864 D DispPerfService: get hint proc=Send Intent#0, idx=0 none
+10-29 12:48:29.948   801   864 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3656,api:0,p:-1,c:801) setConsumerName: Send Intent#0
+10-29 12:48:29.948   801   864 D DispPerfService: get proc=Send Intent#0 none
+10-29 12:48:29.948   801   864 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3656,api:0,p:-1,c:801) setDefaultBufferSize: width=1128 height=2345
+10-29 12:48:29.959   801  2567 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:48:30.002   801   864 D DispPerfService: onframeavailable pid=3407, slot=0, seq=16253, ret=0, name=com.arlosoft.macrodroid:Send Intent#0
+10-29 12:48:30.038   801  1408 D DispPerfService: get hint proc=Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#0, idx=0 none
+10-29 12:48:30.083   801  2567 D DispPerfService: get hint proc=Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#1, idx=0 none
+10-29 12:48:30.086   801  2567 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) setDefaultBufferSize: width=1128 height=2343
+10-29 12:48:30.095   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16254 Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#0
+10-29 12:48:30.109   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:48:30.110   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:48:30.541   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16257 Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#1
+10-29 12:48:31.231   801   801 I BufferQueueConsumer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) acquireBuffer: slot 0 is dropped, handle=0x770a6e2e00
+10-29 12:48:31.361  3407  3407 D WindowManager: Add to mViews: DecorView@5fc58a3[Send Intent], this = android.view.WindowManagerGlobal@99c5d30,pkg= com.arlosoft.macrodroid
+10-29 12:48:31.363  3407  3407 D ViewRootImpl[Send Intent]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+10-29 12:48:31.366   801   863 D DispPerfService: get hint proc=20f7b13 Send Intent#0, idx=0 none
+10-29 12:48:31.381   801   863 I BufferQueueProducer: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:48:31.382  3407  3407 D View    : [Warning] assignParent to null: this = DecorView@2f69c09[Send Intent]
+10-29 12:48:31.394   801   863 D DispPerfService: get hint proc=Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#0, idx=0 none
+10-29 12:48:31.402  1539  1553 E InputDispatcher: Window handle Window{9a78323 u0 Send Intent} has no registered input channel
+10-29 12:48:31.419  1539  4394 E InputDispatcher: Window handle Window{9a78323 u0 Send Intent} has no registered input channel
+10-29 12:48:31.435  1539  4394 E InputDispatcher: Window handle Window{9a78323 u0 Send Intent} has no registered input channel
+10-29 12:48:31.452  1539  4394 E InputDispatcher: Window handle Window{9a78323 u0 Send Intent} has no registered input channel
+10-29 12:48:31.469  1539  4394 E InputDispatcher: Window handle Window{9a78323 u0 Send Intent} has no registered input channel
+10-29 12:48:31.540   801  2567 D DispPerfService: get hint proc=Send Intent#1, idx=0 none
+10-29 12:48:31.540   801  2567 I BufferQueueConsumer: [Send Intent#1](this:0x770a525800,id:3657,api:0,p:-1,c:801) setConsumerName: Send Intent#1
+10-29 12:48:31.541   801  2567 D DispPerfService: get proc=Send Intent#1 none
+10-29 12:48:31.541   801  2567 I BufferQueueConsumer: [Send Intent#1](this:0x770a525800,id:3657,api:0,p:-1,c:801) setDefaultBufferSize: width=1272 height=2345
+10-29 12:48:31.548   801   864 I BufferQueueProducer: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:48:31.598   801   801 I BufferQueue: [Send Intent#0](this:0x77201d5800,id:3656,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 12:48:31.598   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16253 Send Intent#0
+10-29 12:48:31.599   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16259 Surface(name=9a78323 Send Intent)/@0x659b020 - animation-leash#0
+10-29 12:48:31.632   801   863 D DispPerfService: onframeavailable pid=3407, slot=3, seq=16261, ret=0, name=com.arlosoft.macrodroid:Send Intent#1
+10-29 12:48:31.686   801  2567 D DispPerfService: get hint proc=Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#0, idx=0 none
+10-29 12:48:31.817   801   863 D DispPerfService: get hint proc=Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#1, idx=0 none
+10-29 12:48:31.818   801   863 I BufferQueueConsumer: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:3407,c:801) setDefaultBufferSize: width=1272 height=2343
+10-29 12:48:31.831   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16262 Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#0
+10-29 12:48:31.849   801  2566 I BufferQueueProducer: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:48:31.852   801  2566 I BufferQueueProducer: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:3407,c:801) connect(P): api=1 producer=(3407:com.arlosoft.macrodroid) producerControlledByApp=false
+10-29 12:48:31.871 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:32.263   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16265 Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#1
+10-29 12:48:34.973 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:34.974 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:36.814 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:38.301   801  2567 I BufferQueueProducer: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:3407,c:801) disconnect(P): api 1
+10-29 12:48:38.302  3407  3407 D View    : [Warning] assignParent to null: this = DecorView@5fc58a3[Send Intent]
+10-29 12:48:38.305   801  2567 D DispPerfService: get hint proc=Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#0, idx=0 none
+10-29 12:48:38.321  1539  1615 E InputDispatcher: Window handle Window{20f7b13 u0 Send Intent} has no registered input channel
+10-29 12:48:38.338  1539  2078 E InputDispatcher: Window handle Window{20f7b13 u0 Send Intent} has no registered input channel
+10-29 12:48:38.355  1539  2078 E InputDispatcher: Window handle Window{20f7b13 u0 Send Intent} has no registered input channel
+10-29 12:48:38.371  1539  1615 E InputDispatcher: Window handle Window{20f7b13 u0 Send Intent} has no registered input channel
+10-29 12:48:38.520   801   801 I BufferQueue: [Send Intent#1](this:0x770a525800,id:3657,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 12:48:38.520   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16261 Send Intent#1
+10-29 12:48:38.521   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16266 Surface(name=20f7b13 Send Intent)/@0x9d0f35a - animation-leash#0
+10-29 12:48:39.603 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:39.607 31584 31744 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:39.616 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:48:39.616 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:48:39.814 31584  4311 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:39.878  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:39.881  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:39.884  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:41.101 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:41.101 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:43.159  2178  2178 D Launcher.LauncherClient: LauncherCallbacksImp.onHomeIntent, mOverlay:true, mClient:true, assistShowing:false
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@ffa1171id=28 type=APP container=hotseat screen=0 cell(0,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Messages installStateType=-1 installSource=null component=ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.mms/.ui.ConversationList })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@d300b56id=27 type=APP container=hotseat screen=1 cell(1,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Phone installStateType=-1 installSource=null component=ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivityAlias}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.DialtactsActivityAlias })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@b6d37d7id=29 type=APP container=hotseat screen=2 cell(2,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Chrome installStateType=-1 installSource=null component=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[438,1860][642,2076] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@bce78c4id=31 type=APP container=hotseat screen=4 cell(4,0) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Camera installStateType=-1 installSource=null component=ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}, update=false, limit=false, runtime=101000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.oppo.camera/.Camera })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@b221c5cid=46 type=APP container=desktop screen=0 cell(0,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Open Camera installStateType=-1 installSource=null component=ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.sourceforge.opencamera/.MainActivity bnds=[30,413][234,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@421103aid=85 type=APP container=desktop screen=0 cell(2,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Monkey City installStateType=-1 installSource=null component=ComponentInfo{com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle bnds=[438,413][642,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: getFirstMatchForAppClose: cachedClickedItemInfo = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.261  2178  2178 D Launcher.ColorWorkspace: ,info = WorkspaceItemInfo(@be1c4ebid=87 type=APP container=desktop screen=0 cell(3,1) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=MacroDroid installStateType=-1 installSource=null component=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.arlosoft.macrodroid/.intro.IntroActivity bnds=[642,413][846,690] })
+10-29 12:48:43.917 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:48:43.918 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:48:44.026   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16252 9a78323 Send Intent#0
+10-29 12:48:44.026   801   801 D SurfaceFlinger: Client::detachLayer this 0x77203f46c0, layer sequence 16258 20f7b13 Send Intent#0
+10-29 12:48:44.167  2178  2178 D Launcher.ItemClickHandler: onClick, tag = WorkspaceItemInfo(@1e2a248id=86 type=APP container=desktop screen=0 cell(0,2) span(1,1) minSpan(1,1) rank=0 user=UserHandle{0} title=Automate installStateType=-1 installSource=null component=ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}, update=false, limit=false, runtime=110000000, status=0 intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.llamalab.automate/.FlowListActivity bnds=[30,690][234,967] })
+10-29 12:48:44.312 30851  5039 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:44.899  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:46.991 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:46.992 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:47.004 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:47.332  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:47.349 31584 31584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:48:47.349 31584 31584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+10-29 12:48:50.864  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756530845, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:48:51.642  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756531629, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:48:51.673  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756531644, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:48:51.712 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:48:52.366  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:52.468  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:52.707  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:52.877 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:52.878 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:54.923  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:54.929  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:48:55.163 31584 31584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-29 12:48:59.015  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:48:59.026 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:48:59.026 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:04.902  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:04.912 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:04.913 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:11.041  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:11.044 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:11.044 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:12.467  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756552440, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:12.509  1539  4394 V AlarmManager: set(PendingIntent{33d79d5: PendingIntentRecord{b6a33ae com.arlosoft.macrodroid broadcastIntent}}) : type=0 when=1761756557508whenElapsed49087381maxWhen =49087381 win=0 interval=0 flags=0x4 pkg = com.arlosoft.macrodroid
+10-29 12:49:12.573  1539  3226 I ActivityTaskManager: START u0 {act=com.llamalab.automate.intent.action.START_ACTIVITY dat=content://com.llamalab.automate.provider/flows/8/fibers/92/statements/13 flg=0x100d0000 cmp=com.llamalab.automate/.StartActivityForResultActivity (has extras) mCallingUid=10265} from uid 10265 and from pid 3161
+10-29 12:49:13.251  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0xe99 [DynIc-fPensKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756553242, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:13.266  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0xe99 [DynIc-fPensKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756553261, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:13.357 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:49:13.638  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:16.935  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:16.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:16.945 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:18.708  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:19.010  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756558988, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:19.023  1539  1553 V AlarmManager: set(PendingIntent{6c42e47: PendingIntentRecord{b6a33ae com.arlosoft.macrodroid broadcastIntent}}) : type=0 when=1761756564022whenElapsed49093895maxWhen =49093895 win=0 interval=0 flags=0x4 pkg = com.arlosoft.macrodroid
+10-29 12:49:19.069  1539  1553 I ActivityTaskManager: START u0 {act=com.llamalab.automate.intent.action.START_ACTIVITY dat=content://com.llamalab.automate.provider/flows/8/fibers/92/statements/13 flg=0x100d0000 cmp=com.llamalab.automate/.StartActivityForResultActivity (has extras) mCallingUid=10265} from uid 10265 and from pid 3161
+10-29 12:49:19.826  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756559772, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:19.829  2178  2178 D Launcher.Launcher.Model: onShortcutsChanged, pkg = com.arlosoft.macrodroid, shortcuts = [ShortcutInfo {id=***, flags=0x699 [DynIc-fKeyStrRets], packageName=com.arlosoft.macrodroid, activity=ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}, shortLabel=***, resId=0[null], longLabel=***, resId=0[null], disabledMessage=***, resId=0[null], disabledReason=[Not disabled], categories=null, persons=null, icon=null, rank=0, timestamp=1761756559772, intents=null, extras=null}], user = UserHandle{0}
+10-29 12:49:19.875 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:49:20.208  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:23.080  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:23.091 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:23.092 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:25.240  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:28.965  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:28.974 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:28.975 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:34.545  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:35.109  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:35.120 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:35.121 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:35.474  1539  6227 V AlarmManager: set(PendingIntent{5a7889a: PendingIntentRecord{51045cb com.google.android.gms broadcastIntent}}) : type=3 when=49105342whenElapsed49110346maxWhen =49110346 win=0 interval=0 flags=0x0 pkg = com.google.android.gms
+10-29 12:49:36.106  1539  6227 V AlarmManager: set(PendingIntent{5aee4d8: PendingIntentRecord{c417031 com.google.android.gms broadcastIntent}}) : type=2 when=49225954whenElapsed49225954maxWhen =49315936 win=89982 interval=0 flags=0x8 pkg = com.google.android.gms
+10-29 12:49:39.576  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:49:40.997  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:41.006 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:41.006 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:46.887  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:46.896 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:46.896 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:48.723  1539  2078 V AlarmManager: set(PendingIntent{87976f0: PendingIntentRecord{b94f469 com.google.android.gms startService}}) : type=3 when=315409118594whenElapsed315409118594maxWhen =551929118593 win=236519999999 interval=0 flags=0x8 pkg = com.google.android.gms
+10-29 12:49:48.777  1539  1554 V AlarmManager: set(PendingIntent{8ff6e25: PendingIntentRecord{7d745a com.google.android.gms broadcastIntent}}) : type=3 when=50495926whenElapsed50495926maxWhen =51528883 win=1032957 interval=0 flags=0x0 pkg = com.google.android.gms
+10-29 12:49:48.783  2826  2826 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.783  2826  2826 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.794  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.personalsafety.scanners.BleScheduler.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.806  1539  1554 V AlarmManager: set(PendingIntent{913408: PendingIntentRecord{7d745a com.google.android.gms broadcastIntent}}) : type=3 when=49418667whenElapsed49418667maxWhen =49643658 win=224991 interval=0 flags=0x0 pkg = com.google.android.gms
+10-29 12:49:48.866  1539  1554 V AlarmManager: set(PendingIntent{7cbd187: PendingIntentRecord{7d745a com.google.android.gms broadcastIntent}}) : type=3 when=49418667whenElapsed49418667maxWhen =49643613 win=224946 interval=0 flags=0x0 pkg = com.google.android.gms
+10-29 12:49:48.875  2826  2826 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.locationreporting.LocationReportUploadGmsTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.875  2826  2826 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.locationreporting.LocationReportUploadGmsTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.890  2826  2826 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.locationreporting.LocationReportUploadGmsTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+10-29 12:49:48.903  1539  2592 V AlarmManager: set(PendingIntent{96c9d9: PendingIntentRecord{7d745a com.google.android.gms broadcastIntent}}) : type=3 when=49418667whenElapsed49418667maxWhen =49643586 win=224919 interval=0 flags=0x0 pkg = com.google.android.gms
+10-29 12:49:53.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:53.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:58.920  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:49:58.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:49:58.929 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:05.070 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:05.070 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:10.961 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:10.963 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:12.968 21056 21072 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:50:13.880  1539  1578 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+10-29 12:50:17.103 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:17.103 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:22.983  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:50:22.992 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:22.993 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:35.023 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:35.023 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:40.902  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:50:40.911 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:40.911 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:47.055 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:47.055 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:50.208  1539  4736 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.llamalab.automate/.FlowListActivity} from uid 10265 and from pid 10184
+10-29 12:50:50.376 30851 30955 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:50:52.944 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:52.944 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:59.080 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:50:59.080 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:04.967 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:04.967 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:11.112 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:11.112 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:17.004 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:17.005 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:18.380  1539  2586 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.llamalab.automate/.FlowListActivity} from uid 10265 and from pid 10184
+10-29 12:51:21.417  1539  2586 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=content://com.llamalab.automate.provider/flows/8 cmp=com.llamalab.automate/.FlowDetailsActivity mCallingUid=10265} from uid 10265 and from pid 10184
+10-29 12:51:21.529 30851 30946 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:51:21.549 30851 30946 W ColorExSystemServiceHelper: checkColorExSystemService intent getComponent is null
+10-29 12:51:22.886  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:51:22.894 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:22.895 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:29.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:29.040 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:29.624  1539  3228 V AlarmManager: set(PendingIntent{e7b6972: PendingIntentRecord{4d8d1c3 com.google.android.gms startService}}) : type=3 when=315409219495whenElapsed315409219495maxWhen =551929219494 win=236519999999 interval=0 flags=0x8 pkg = com.google.android.gms
+10-29 12:51:29.630  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:51:30.631  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+10-29 12:51:34.917  1539  1539 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-29 12:51:34.926 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:34.926 17356 17356 W FileManager::BaseActivity: mChangedReceiver onReceive action = android.intent.action.BATTERY_CHANGED
+10-29 12:51:36.197  2826  2826 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-29 12:51:37.343  1539  2586 V AlarmManager: set(PendingIntent{e9f469c: PendingIntentRecord{9fcc8a5 com.google.android.gms broadcastIntent}}) : type=3 when=49227212whenElapsed49232216maxWhen =49232216 win=0 

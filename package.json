@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "appium-uiautomator2-driver": "^2.4.4",
+    "watch": "^1.0.2"
+  }
+}

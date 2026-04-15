@@ -46,6 +46,10 @@ num_cards = 4
 BKG_THRESH = 30
 CARD_THRESH = 30
 
+newpath = r'cards' 
+if not os.path.exists(newpath):
+    os.makedirs(newpath)
+
 
 #  for some reason forking then using subprocess run will block the main process
 #

@@ -1,0 +1,206 @@
+#!/usr/bin/perl
+
+#
+#  output 4 files - one for each device profile
+#
+
+use Getopt::Std;
+use Data::Dumper;
+
+#  
+#
+
+
+# if rooted,
+# adb shell appops set com.android.shell WRITE_SETTINGS allow
+# if not rooted,
+#  Security exception: uid 2000 does not have android.permission.MANAGE_APP_OPS_MODES
+#
+#adb shell settings put system accelerometer_rotation 0  #disable auto-rotate
+#adb shell settings put system user_rotation 3  #270° clockwise
+
+
+my $orientation = "LANDSCAPE";
+
+if ($ENV{ANDROID_SERIAL} =~ /emulator/) {
+  $orientation = "EMULATOR";
+}
+
+my %opts;
+getopt('k', \%opts);
+getopt('o', \%opts);
+
+unless (exists $opts{o}) {
+	$opts{o} = "record.sh";
+}
+
+print Dumper(\%opts);
+my $filename = $opts{o};
+
+$SIG{INT} = sub { 
+
+  close SH; 
+  open(SH, "<", "$filename") || die $!;
+  my @out;
+  @out = <SH>;
+  close SH;
+  unless (exists $opts{k}) {
+    pop @out;
+  }
+  print @out;
+  open(SH, ">", "$filename") || die $!;
+  print SH @out;
+  print SH "  n+=1\n";
+  print SH '  spl=$(bc <<< "scale=3;$SECONDS/$n")'."\n";
+  print SH '  remain=$(bc <<< "scale=0; (($limit-$n)*$spl)/1")'."\n";
+  print SH '  eta=$(date "+%r %a" --date="$remain seconds")'."\n";
+  print SH '  output="$spl s per loop, $n loops"'."\n";
+  print SH '  if [ $once -gt 0 ]; then'."\n";
+  print SH '    now=$(date "+%r %a")'."\n";
+  print SH '    echo "begin $now"'."\n";
+  print SH "    once=0\n  fi\n";
+  print SH '  if [ $(($n%$rfreq)) -eq 0 ]; then'."\n";
+  print SH '    output+=""'."\n  fi\n";
+  print SH '  if [ $limit -gt 0 ]; then'."\n";
+  print SH '    rmin=$(bc <<< "scale=3;$remain/60") '."\n";
+  print SH '    rh=$(bc <<< "scale=0;$rmin/60")'."\n";
+  print SH '    rmi=$(bc <<< "scale=0;$rmin%60")'."\n";
+  print SH '    material=$((($limit-$n-1)*$unit_input))'."\n";
+  print SH '    output+=" of $(($limit - $n)), eta $eta ($rh hours $rmi mins) $material"'."\n";
+  print SH '  fi'."\n";
+  print SH '  echo $output'."\n";
+  print SH "done\n";
+  close SH;
+
+};
+
+#todo: record time from DOWN to UP
+
+#parse adb shell wm size
+my ($maxX, $maxY) = (1200,1920);
+
+my $fh;
+open($fh, "-|", 'adb shell wm size') || die $!;
+my @line = split(/ /,<$fh>);
+chomp $line[-1];
+close($fh);
+my $s = $line[2];
+($maxX, $maxY) = split(/x/,$s);
+printf "resolution %sx%s\n",$maxX, $maxY;
+($maxX, $maxY) = ($maxY, $maxX)  if ($maxY > $maxX);
+printf "resolution %sx%s\n",$maxX, $maxY;
+
+my ($scaleX, $scaleY) = (1,1);
+if ($orientation == 'EMULATOR') {
+	($scaleX, $scaleY) = (1/(32746 / $maxX), 1/(32754 / $maxY));
+}
+
+
+open(SH, ">", "$filename") || die $!;
+print SH '#!/bin/sh'."\n";
+#print SH "#\n#  resolution $maxX 
+printf SH "#\n#  resolution %sx%s\n",$maxX, $maxY;
+print SH "#\n";
+print SH "declare -i limit=0 n=0 once=1 rfreq=3\n";
+print SH "declare -i unit_input=28\n";
+print SH 'if [ -n "$1" ]; then limit=$(($1/$unit_input+1)); fi'."\n";
+print SH 'while [ \( $(($limit-$n)) -gt 0 \) -o \( $limit -eq 0 \) ]; do'."\n";
+open($fh, "-|", 'adb shell getevent -tl') || die $!;
+
+my $event = undef;
+my $lastEvent = undef;
+my $r;
+my ($x, $y);
+while(<$fh>) {
+    chomp;
+    my ($null, $time, $dev,$ev,$type,$val) = split(/\s+/,$_);
+    if ($ev eq 'EV_ABS') {
+      if ($orientation eq 'EMULATOR') {
+        if ($type eq 'ABS_MT_PRESSURE') {
+          $val = hex($val);
+          printf("%s %s\t%s\n",$ev, $type, $val);
+          $ev = 'EV_KEY';
+          if ($val > 0) {
+            $val = 'DOWN';
+          } else {
+            $val = 'UP';
+          }
+        }
+      }
+      if ($type eq 'ABS_MT_TOUCH_MAJOR') {
+        }
+        if ($type =~ /^ABS_MT_POSITION/) {
+            $val = hex($val);
+	    #  resolution & orientation are backwards in landscape mode
+	    #  on hardware devices
+	    #
+            if ($orientation eq 'LANDSCAPE') {
+                        printf("%s\t%s\n",$type, $val);
+                if ($type =~ /X$/) {
+                   if (not defined $event->{'sy'}) {
+                    $event->{'sy'} = $maxY-$val;
+                    $event->{'y'} = $maxY-$val;
+                  } else {
+                    $event->{'y'} = $maxY-$val;
+                  }
+                }
+# X is inverted in landscape mode
+                if ($type =~ /Y$/) {
+                   if (not defined $event->{'sx'}) {
+                    $event->{'sx'} = $val;
+                    $event->{'x'} = $val;
+                  } else {
+                    $event->{'x'} = $val;
+                  }
+                }
+            } elsif ($orientation eq 'EMULATOR') {
+		    #        printf("%s\t%s\n",$type, $val);
+                if ($type =~ /X$/) {
+			$x = $val * $scaleX;
+                }
+                if ($type =~ /Y$/) {
+			$y = $val * $scaleY;
+                }
+	    }
+
+        }
+        if ($type =~ /TRACKING_ID$/) {
+            #            printf("id %s\tx,y (%i,%i)\n",$val,$event->{'x'}, $event->{'y'});
+            #            printf("adb shell input swipe %i %i %i %i 100\n",$event->{'x'}, $event->{'y'}, $event->{'x'}, $event->{'y'});
+        }
+        #printf("%s\t%s\n",$type, $val);
+    } 
+    if ($ev eq 'EV_KEY') {
+                        printf("%s %s\t%s\n",$ev, $type, $val);
+        if ($val eq 'DOWN') {
+            $lastEvent = $event;
+            $event = {};
+            $r = '';
+            $time =~ s/\]//;
+            $event->{start} = $time * 1000;
+            if ($orientation eq 'EMULATOR' ) {
+              $event->{'sx'} = $x;
+              $event->{'sy'} = $y;
+            }
+        } elsif ($val eq 'UP') {
+            $time =~ s/\]//;
+            $event->{end} = $time * 1000;
+            $event->{time} = ($event->{end} - $event->{start});
+
+            if ($orientation eq 'EMULATOR' ) {
+              $event->{'x'} = $x;
+              $event->{'y'} = $y;
+            }
+            if (defined $lastEvent) {
+              my $diff = ($event->{end} - $lastEvent->{end}) / 1000;
+              printf SH "  sleep %0.1f\n", $diff;
+              printf("  sleep %0.1f\n", $diff);
+            }
+            printf SH "  adb shell input swipe %i %i %i %i %d\n",$event->{'sx'}, $event->{'sy'}, $event->{'x'}, $event->{'y'}, $event->{time};
+            printf("adb shell input swipe %i %i %i %i %d\n",$event->{'sx'}, $event->{'sy'}, $event->{'x'}, $event->{'y'}, $event->{time});
+        }
+    }
+}
+close SH;
+
+

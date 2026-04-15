@@ -58,6 +58,10 @@ page = 1
 BKG_THRESH = 30
 CARD_THRESH = 30
 
+newpath = r'cards' 
+if not os.path.exists(newpath):
+    os.makedirs(newpath)
+
 def stdout_reader(proc, q):
     for line in iter(proc.stdout.readline, b''):
         q.put(line.decode('utf-8'))

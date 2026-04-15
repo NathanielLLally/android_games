@@ -1,0 +1,17 @@
+#!/bin/sh
+
+GUEST_CACHE_DIR="/storage/emulated/0/Android/data/com.spotify.music/files/spotifycache/Storage"
+HOST_CACHE_DIR="/tmp/spotifycache/Storage"
+
+if [ -e "$HOST_CACHE_DIR" ]; then
+  echo "todo remove existing host cache"
+else 
+  mkdir -p $HOST_CACHE_DIR
+fi
+
+
+# no rsync on droid
+#  -g, --listed-incremental=FILE  ?
+
+cd $HOST_CACHE_DIR
+adb shell "cd $GUEST_CACHE_DIR && tar -czv . " -- | tar -xzv 

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="preference_timer_beep" value="true" />
+    <boolean name="preference_show_stamp" value="false" />
+    <boolean name="preference_show_exposure_lock" value="true" />
+    <string name="preference_record_audio_src">audio_src_camcorder</string>
+    <string name="preference_audio_noise_control_sensitivity">0</string>
+    <string name="preference_burst_mode">1</string>
+    <string name="preference_video_output_format">preference_video_output_format_default</string>
+    <string name="preference_camera_api">preference_camera_api_old</string>
+    <boolean name="preference_shutter_sound" value="true" />
+    <string name="preference_zebra_stripes">0</string>
+    <string name="preference_video_max_duration">0</string>
+    <boolean name="preference_show_zoom_slider_controls" value="true" />
+    <string name="preference_stamp_fontsize">12</string>
+    <boolean name="preference_show_white_balance_lock" value="false" />
+    <boolean name="preference_raw_focus_bracketing" value="true" />
+    <string name="preference_expo_bracketing_stops">2</string>
+    <string name="preference_volume_keys">volume_take_photo</string>
+    <boolean name="preference_show_geo_direction_lines" value="false" />
+    <string name="preference_image_format">preference_image_format_jpeg</string>
+    <boolean name="preference_show_video_max_amp" value="false" />
+    <string name="preference_video_max_filesize">0</string>
+    <boolean name="preference_show_angle" value="false" />
+    <boolean name="preference_show_toasts" value="true" />
+    <boolean name="preference_thumbnail_animation" value="true" />
+    <string name="preference_lock_orientation">none</string>
+    <boolean name="preference_show_store_location" value="false" />
+    <string name="preference_burst_interval">0</string>
+    <string name="preference_record_audio_channels">audio_default</string>
+    <boolean name="preference_camera2_fake_flash" value="false" />
+    <float name="preference_focus_bracketing_target_distance" value="0.0" />
+    <string name="preference_stamp_style">preference_stamp_style_shadowed</string>
+    <boolean name="preference_require_location" value="false" />
+    <string name="preference_panorama_save">preference_panorama_save_no</string>
+    <boolean name="preference_show_camera_id" value="true" />
+    <string name="preference_panorama_crop">preference_panorama_crop_on</string>
+    <string name="preference_nr_save">preference_nr_save_no</string>
+    <string name="preference_textstamp"></string>
+    <string name="video_quality_0">6_r2400x1080</string>
+    <string name="video_quality_1">1_r1920x1080</string>
+    <string name="preference_stamp">preference_stamp_no</string>
+    <string name="preference_touch_capture">none</string>
+    <int name="save_location_history_size" value="1" />
+    <string name="preference_preview_size">preference_preview_size_wysiwyg</string>
+    <string name="preference_angle_highlight_color">#14e715</string>
+    <string name="preference_zebra_stripes_foreground_color">#ff000000</string>
+    <boolean name="done_first_time" value="true" />
+    <int name="latest_version" value="85" />
+    <string name="preference_remote_type">preference_remote_type_kraken</string>
+    <boolean name="preference_raw_expo_bracketing" value="true" />
+    <string name="preference_exif_artist"></string>
+    <boolean name="preference_camera2_fast_burst" value="true" />
+    <string name="preference_video_fps">default</string>
+    <boolean name="preference_timer_speak" value="false" />
+    <boolean name="preference_enable_remote" value="false" />
+    <boolean name="preference_show_cycle_raw" value="false" />
+    <boolean name="preference_keep_display_on" value="true" />
+    <string name="flash_value_1">flash_off</string>
+    <string name="flash_value_0">flash_auto</string>
+    <boolean name="preference_video_flash" value="false" />
+    <boolean name="preference_camera2_dummy_capture_hack" value="false" />
+    <boolean name="preference_free_memory" value="true" />
+    <string name="preference_save_video_prefix">VID_</string>
+    <boolean name="preference_max_brightness" value="true" />
+    <string name="ghost_image_alpha">50</string>
+    <string name="preference_crop_guide">crop_guide_none</string>
+    <string name="preference_immersive_mode">immersive_mode_everything</string>
+    <boolean name="preference_record_audio" value="true" />
+    <boolean name="preference_video_low_power_check" value="true" />
+    <boolean name="preference_startup_focus" value="true" />
+    <boolean name="preference_auto_stabilise" value="true" />
+    <string name="preference_video_log">off</string>
+    <boolean name="preference_show_iso" value="true" />
+    <boolean name="preference_show_textstamp" value="false" />
+    <boolean name="preference_location" value="false" />
+    <boolean name="preference_show_cycle_flash" value="false" />
+    <string name="preference_rotate_preview">0</string>
+    <boolean name="preference_show_auto_level" value="false" />
+    <string name="preference_grid">preference_grid_none</string>
+    <string name="preference_scene_mode">auto</string>
+    <string name="preference_ghost_image">preference_ghost_image_off</string>
+    <boolean name="preference_show_take_photo" value="true" />
+    <string name="focus_value_0_false">focus_mode_continuous_picture</string>
+    <string name="preference_focus_assist">0</string>
+    <string name="preference_stamp_dateformat">preference_stamp_dateformat_default</string>
+    <boolean name="preference_video_restart_max_filesize" value="true" />
+    <boolean name="preference_show_whats_new" value="false" />
+    <boolean name="preference_using_saf" value="false" />
+    <string name="preference_expo_bracketing_n_images">3</string>
+    <string name="preference_exif_copyright"></string>
+    <boolean name="preference_show_when_locked" value="false" />
+    <boolean name="preference_show_battery" value="true" />
+    <boolean name="preference_multi_cam_button" value="true" />
+    <boolean name="is_video" value="true" />
+    <string name="preference_focus_peaking_color">#ffffff</string>
+    <string name="camera_resolution_1">2320 1740</string>
+    <boolean name="preference_hdr_save_expo" value="false" />
+    <string name="preference_antibanding">auto</string>
+    <boolean name="preference_show_face_detection" value="false" />
+    <string name="preference_stamp_gpsformat">preference_stamp_gpsformat_default</string>
+    <string name="camera_resolution_0">4608 3456</string>
+    <string name="preference_front_camera_mirror">preference_front_camera_mirror_no</string>
+    <string name="preference_raw">preference_raw_no</string>
+    <string name="preference_hdr_contrast_enhancement">preference_hdr_contrast_enhancement_smart</string>
+    <boolean name="preference_show_geo_direction" value="false" />
+    <boolean name="preference_allow_long_press" value="true" />
+    <boolean name="preference_face_detection" value="false" />
+    <float name="preference_focus_distance" value="0.0" />
+    <string name="preference_timer">0</string>
+    <boolean name="preference_show_zoom" value="true" />
+    <string name="preference_save_zulu_time">local</string>
+    <string name="preference_units_distance">preference_units_distance_m</string>
+    <boolean name="preference_force_video_4k" value="false" />
+    <string name="preference_ui_placement">ui_top</string>
+    <string name="preference_audio_control">none</string>
+    <string name="preference_zebra_stripes_background_color">#ffffffff</string>
+    <boolean name="preference_gps_direction" value="false" />
+    <string name="save_location_history_0">OpenCamera</string>
+    <string name="preference_stamp_timeformat">preference_stamp_timeformat_default</string>
+    <boolean name="preference_pause_preview" value="false" />
+    <boolean name="preference_remote_disconnect_screen_dim" value="false" />
+    <string name="preference_video_restart">0</string>
+    <boolean name="preference_lock_video" value="false" />
+    <boolean name="preference_comment_ypr" value="false" />
+    <boolean name="preference_camera2_photo_video_recording" value="true" />
+    <boolean name="preference_show_angle_line" value="false" />
+    <boolean name="preference_show_time" value="true" />
+    <string name="preference_stamp_font_color">#ffffff</string>
+    <string name="preference_white_balance">auto</string>
+    <string name="preference_exposure">6</string>
+    <string name="preference_video_subtitle">preference_video_subtitle_no</string>
+    <boolean name="preference_show_zoom_controls" value="false" />
+    <boolean name="preference_water_type" value="true" />
+    <string name="preference_focus_peaking">preference_focus_peaking_off</string>
+    <string name="preference_video_profile_gamma">2.2</string>
+    <boolean name="preference_video_stabilization" value="true" />
+    <string name="preference_quality">90</string>
+    <string name="focus_value_0_true">focus_mode_continuous_video</string>
+    <boolean name="preference_take_photo_border" value="true" />
+    <string name="preference_histogram">preference_histogram_off</string>
+    <string name="preference_video_bitrate">default</string>
+    <string name="preference_save_photo_prefix">IMG_</string>
+    <string name="preference_resolution">4608 3456</string>
+    <boolean name="preference_show_pitch_lines" value="false" />
+</map>

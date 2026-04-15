@@ -531,7 +531,7 @@ class VideoThread(QThread):
         self.summons = 0
         self.sawSummonsAt = [0,0,0,0,0]
         self.spriteMoveTime = 4
-        self.xbtn_template = cv.imread('aethric/x_btn_black_10px_border.png', 0)
+        self.xbtn_template = cv.imread('templates/x_btn_black_10px_border.png', 0)
         # load the pre-trained EAST text detector
         print("[INFO] loading EAST text detector...")
         self.net = cv.dnn.readNet("frozen_east_text_detection.pb")
@@ -1083,7 +1083,7 @@ class VideoThread(QThread):
             if not foundX:
                 self.spell_menu = False
 
-            hp_template = cv.imread('aethric/hp_bar_empty_alpha.png', 0)
+            hp_template = cv.imread('templates/hp_bar_empty_alpha.png', 0)
             w, h = hp_template.shape[::-1]
             res = cv.matchTemplate(gray, hp_template, cv.TM_CCOEFF_NORMED)
             threshold = 0.8

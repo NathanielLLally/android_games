@@ -1,6 +1,7 @@
 #!/bin/sh
 
-declare -A pinsA
+
+#declare -A pinsA
 getPIN() {
   s=$1
   echo "${pinsA[$s]}"
@@ -17,15 +18,70 @@ getDevices() {
   echo $(adb devices | grep device$ | cut -f1)
 }
 
-getIP() {
+getWlanIP() {
   serial=$1
+  if [ -z "$serial" ]; then
+	  echo "getWlanIP: error no device "
+  fi
   ip=$(adb -s $serial shell "ip addr show wlan0 | grep -e wlan0$ | cut -d\" \" -f 6 | cut -d/ -f 1")
   echo $ip
+}
+
+resetWifi() {
+  serial=$1
+  if [ -z "$serial" ]; then
+	  echo "resetWifi: error no device "
+  fi
+  hasColon=$(echo $serial | grep \:)
+  if [ -n "$hasColon" ]; then
+	  echo "$serial is over wifi, returning without reset"
+	  return
+  fi
+  echo "disabling wifi"
+  status=$(adb -s $serial shell "svc wifi disable")
+  echo $status
+  echo "enabling wifi"
+  status=$(adb -s $serial shell "svc wifi enable")
+  sleep 10
+  echo $status
+}
+
+adbtcpip() {
+  serial=$1
+  if [ -z "$serial" ]; then
+	  echo "adbtcpip: error no device "
+  fi
+  hasColon=$(echo $serial | grep \:)
+  if [ -n "$hasColon" ]; then
+	  echo "adbtcpip: device [$serial] is over wifi, returning"
+	  return
+  fi
+
+  ip=$(getWlanIP $serial)
+  status=$(adb -s $serial tcpip 5555)
+  echo $status
+  sleep 2;
+  status=$(adb connect $ip:5555)
+  echo $status
+  sleep 2;
+}
+
+forwardPort() {
+  serial=$1
+  if [ -z "$serial" ]; then
+	  echo "forwardPort: error no device "
+  fi
+  ip=$(getWlanIP $serial)
+  status=$(adb -s $ip:5555 forward tcp:5555 tcp:5555)
+  status=$(netstat -lvetpn | grep 127.0.0.1:5555)
+  echo $status
 }
 
 
 # Returns the power state of the screen 1 = on, 0 = off
 getDisplayState() {
+	CMD="adb -s $1 shell dumpsys power | grep mScreenOn= | grep -oE '(true|false)')"
+	echo $CMD
 	state=$(adb -s $1 shell dumpsys power | grep mScreenOn= | grep -oE '(true|false)')
 
 	# If we didn't get anything it might be a pre-lollipop device

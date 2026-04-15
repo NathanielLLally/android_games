@@ -1,0 +1,11 @@
+#!/bin/sh
+while [ 1 ]; do
+adb shell input swipe 1218 267 1218 267 90
+sleep 2.3
+adb shell input swipe 1868 985 1868 985 82
+sleep 2.7
+adb shell input swipe 1392 540 1392 540 73
+sleep 35.0
+adb shell input swipe 2211 873 2211 873 123
+sleep 1.8
+done

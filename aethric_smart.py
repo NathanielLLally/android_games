@@ -388,6 +388,7 @@ class Aethric(Actions):
         self.modeSteps = getattr(self,self.mode)
         self.names = []
         self.sleep = 8
+        self.doing = ""
         if self.debug > 3:
             print("Aethic __init end")
 
@@ -436,9 +437,10 @@ class Aethric(Actions):
         for action in actions:
             if isinstance(action, dict):
                 print("%s - %s" % (action["name"], action["action"]))
+                QtTest.QTest.qWait(100)
                 exec(action["action"])
-                time.sleep(0.2) 
         self.enable_scale()
+        return token
 
     def make_button_taps(self,maptokens,lastWait=True):
         taps = []
@@ -543,11 +545,11 @@ class VideoThread(QThread):
         self.action = ""
         self.actionStack = ["db"]
         self.lastTurn = None
-        self.xbtn_template = cv.imread('aethric/x_btn_black_10px_border.png', 0)
-        self.origintown_template = cv.imread('aethric/origin_town.png', 0)
-        self.balor_template = cv.imread('aethric/balor.png', 0)
-        self.warpgate_template = cv.imread('aethric/warp_gate.png', 0)
-        self.continuebtn_template = cv.imread('aethric/continue_button.png', 0)
+        self.xbtn_template = cv.imread('templates/x_btn_black_10px_border.png', 0)
+        self.origintown_template = cv.imread('templates/origin_town.png', 0)
+        self.balor_template = cv.imread('templates/balor.png', 0)
+        self.warpgate_template = cv.imread('templates/warp_gate.png', 0)
+        self.continuebtn_template = cv.imread('templates/continue_button.png', 0)
         # load the pre-trained EAST text detector
         print("[INFO] loading EAST text detector...")
         self.net = cv.dnn.readNet("frozen_east_text_detection.pb")
@@ -1089,7 +1091,7 @@ class VideoThread(QThread):
             for pt in zip(*loc[::-1]):
                 cv.rectangle(im2, pt, (pt[0] + w, pt[1] + h), (0,0,255), 2)
 
-            #hp_template = cv.imread('aethric/hp_bar_empty_alpha.png', 0)
+            #hp_template = cv.imread('templates/hp_bar_empty_alpha.png', 0)
             #w, h = hp_template.shape[::-1]
             #res = cv.matchTemplate(gray, hp_template, cv.TM_CCOEFF_NORMED)
             #threshold = 0.8
@@ -1216,6 +1218,7 @@ class VideoThread(QThread):
             #  decide what to do
             #
             if self.spell_menu and self.image_options in ["Battle", "Arena", "World"]:
+                print("spell menu button showed up... dc?")
                 self.turns += 1
                 action=""
 
@@ -1231,7 +1234,10 @@ class VideoThread(QThread):
                 if self.ward_percent < 90:
                     action = "mend"
                 if self.summons < 5:
-                    action = "summon2"
+                    if self.turns < 15:
+                        action = "summon2"
+                    else:
+                        action = "summon"
                 if self.health_percent < 8:
                     action = "heal"
                 if self.turns == 1:
@@ -1243,8 +1249,9 @@ class VideoThread(QThread):
                 if self.turns in [9,10]:
                     if self.lastTurn != "ward" and self.summons < 5:
                         action = "ward"
-                if self.mana_percent < 15 and self.turns > 1: #10 is too low
+                if self.mana_percent < 16 and self.turns > 1: #10 is too low
                     action = "potion"
+                    print("spell menu button showed up... dc?")
                 if self.ward_percent < 1:
                     action = "ward"
 
@@ -1276,7 +1283,9 @@ class VideoThread(QThread):
                 self.action = action
                 feedback = "%s, turn %s, time %s" % (action, self.turns, str(datetime.now() - self.battleStart).split('.')[0]);
                 cv.putText(im2, feedback, (20, 200), cv.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
-                self.actions.doToken(action)
+                print("do token %s " % action)
+                done = self.actions.doToken(action)
+                print("do token %s returned with %s" % (action, done))
 
             else:
                 if self.image_options == "Battle" and self.battleEnd == None:
