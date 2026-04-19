@@ -1,0 +1,110 @@
+#!/bin/tcsh -fx
+#  -f prevents loading .cshrc, providing more uniform execution
+
+# GLOBALS
+
+set guest_cache_dir="/storage/emulated/0/Android/media/com.bambuna.podcastaddict"
+#"/storage/emulated/0/Android/data/com.spotify.music/files/spotifycache/Storage"
+set host_cache_dir="/tmp/podcast_addict/"
+
+set master_android_model="SM_S366V"
+
+alias adbs 'adb -s \!:1'
+alias getAlarmSQL 'source ~/bin/getAlarmSQL.tcsh'
+
+#ghetto getopt
+set mode=''
+if ($#argv > 0) then
+        set mode = $argv[1]
+endif
+
+
+# wifi?
+# RFCY61ANQSR            device usb:3-4 product:a36xqtfn model:SM_S366V device:a36xq transport_id:2
+#
+#set adb_model=\ `adb devices -lSM_S366V
+set adb_serial_model=\ `adb devices -l | cperl 'if ($_ =~ /^(.*?)\s.*?model:(.*?) /) {  print "$1:$2 "; }'`
+
+echo "default options, host [$HOST]: "
+switch ("$HOST")
+        case "starbumblebee2":
+                echo "default options host [$HOST] is_adb_usb [: pull, ..." 
+                set host_cache_dir="/mnt/l0pht/media/podcast_addict/"
+          breaksw
+        default:
+          foreach dev ($adb_serial_model)
+                set f=($dev:as/:/ /)
+                set serial=$f[1]
+                set model=$f[2]
+                if ("$master_android_model" == "$model") then
+                        setenv ANDROID_SERIAL $serial
+                        echo "\tandroid master dev serial [$serial] model [$model]"
+                else
+                        echo "\tandroid dev serial [$serial] model [$model]"
+                endif
+           end
+           breaksw
+endsw
+
+if ("$mode" == "sync" ) then
+        echo "removing host_cache"
+        if ( -e "$host_cache_dir" ) then
+               #cleanup
+                rm -rf $host_cache_dir
+        endif 
+endif
+mkdir -p $host_cache_dir
+
+echo "cleaning mp4 from guest dir"
+set cmd="adb shell find $guest_cache_dir -iname '*.mp4' -exec rm '{}' \;"
+#echo "DEBUG [$cmd]"
+`$cmd`;
+echo ""
+
+
+# no rsync on droid
+#  -g, --listed-incremental=FILE  ?
+
+if ("$mode" == "sync" ) then
+        echo "sync master guest to host"
+        cd $host_cache_dir && adb shell "cd $guest_cache_dir && tar -czv . " -- | tar -xzv 
+else
+        echo "sync master backup guest to host"
+        cd $host_cache_dir && adb shell "cd $guest_cache_dir && tar -czv ./backup " -- | tar -xzv 
+endif
+
+
+mkdir -p "$host_cache_dir/appDump"
+
+set latest=\ `ls -1baRt $host_cache_dir/backup/*.backup | head -1`
+
+echo "dumping app [$latest]"
+`unzip -o $latest -d $host_cache_dir/appDump`
+
+#set latestDb=\ `ls -1QaRt --quoting-style=shell $host_cache_dir/appDump/*.db | head -1`
+set latestDb=\ `ls -1aRt $host_cache_dir/appDump/*.db | head -1`
+set latestDb=($latestDb:as/ /\ /)
+
+#SELECT time(86399, 'unixepoch'); 
+#
+#time(time/1000, 'unixepoch')
+set backslash_quote
+set sql=\ `echo "select enabled,time(time/1000, \'unixepoch\') as time,frequency,name,type,volume from alarms" | sqlite3 -json \"$latestDb\" > /tmp/alarms.json`
+
+set json='/tmp/alarms.json'
+foreach key (`jq -r 'keys[]' $json`)
+    set time=\ `jq -r ".[$key].time" $json`
+    set enabled=\ `jq -r ".[$key].enabled" $json`
+    set name=\ `jq -r ".[$key].name" $json`
+    set frequency=\ `jq -r ".[$key].frequency" $json`
+    echo $time, $frequency, $name, $enabled
+end
+#only one nameless playlist, and/or queueG
+#set playlist
+
+#xml & sqlite2 
+#com.bambuna.podcastaddict_preferences.xml
+#
+
+
+
